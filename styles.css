@@ -1,0 +1,55 @@
+/* CSS for the page header */
+header {
+  background-color: #FF4081; /* Vibrant color */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* CSS for the message container */
+.message-container {
+  margin: 20px;
+}
+
+/* CSS for the name input, message input, and submit button */
+.name-input,
+.message-input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.submit-button {
+  background-color: #FF4081; /* Vibrant color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #F06292; /* Complementary color */
+}
+
+/* CSS for the message list */
+.message-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #FCE4EC; /* Light complementary color */
+  border: 1px solid #FF4081; /* Vibrant color */
+}
+
+.message-name {
+  font-weight: bold;
+}
+
+.message-content {
+  display: inline;
+}
